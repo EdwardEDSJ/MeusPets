@@ -16,16 +16,16 @@
     <EditText
         android:id="@+id/edtLoginUsuario"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_margin="20sp"
-        android:drawableEnd="@drawable/twotone_person"
+        android:drawableEnd="@drawable/baseline_account_circle"
         android:hint="Usuário"
         android:inputType="textPersonName"
         android:padding="10sp" />
     <EditText
         android:id="@+id/edtLoginsenha"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_margin="20sp"
         android:drawableEnd="@drawable/baseline_lock"
         android:hint="Senha"

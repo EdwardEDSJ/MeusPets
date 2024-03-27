@@ -24,10 +24,10 @@
     <EditText
         android:id="@+id/edtUsúario"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_below="@+id/imgCatLogo"
         android:layout_margin="20sp"
-        android:drawableEnd="@drawable/twotone_person"
+        android:drawableEnd="@drawable/baseline_account_circle"
         android:hint="Insira o Nome de Usúario"
         android:inputType="textPersonName"
         android:padding="10sp" />
@@ -35,7 +35,7 @@
     <EditText
         android:id="@+id/edtSenha"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_below="@+id/edtUsúario"
         android:layout_margin="20sp"
         android:drawableEnd="@drawable/baseline_lock"
